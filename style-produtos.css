@@ -1,0 +1,129 @@
+header {
+    background: #acacac;
+    padding: 30px 0;
+}
+
+.cabecalho {
+    position: relative;
+    width: 940px;
+    margin:0 auto;
+}
+
+.imagen-rosto {
+    width: 15%;
+    padding: block;
+}
+
+.imagen-poste {
+    width: 20%;
+    padding: block;
+    padding-left: 600px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 15px 10px;
+}
+
+.input-padrao, textarea {
+    display: block;
+    margin: 0 5px 20px;
+    padding: 3px 30px;
+    width: 50%;
+}
+
+.envio {
+    background-color: rgb(207, 194, 14);
+    display: block;
+    margin: 0 15px;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 15px;
+}
+
+.envio:hover{
+    background-color: green;
+    color: black;
+    cursor: pointer;
+}
+
+.envio:active {
+    padding: 5px 10px;
+}
+
+select {
+    width: 100px;
+    border: 2px solid black;
+    margin: 0 20px 5px;
+    padding: 3px 0;
+}
+
+#checkbox {
+    width: 30px;
+}
+
+.checkbox {
+    margin: 20px 5px;
+}
+
+footer {
+    background: url(bg.jpg);
+    padding: 50px 0;
+}
+
+footer div {
+    position: relative;
+    width: 940px;
+    margin:0 auto;
+}
+
+.poste-diferente {
+    position: absolute;
+    width: 50px;
+    top: -42px;
+    left: 250px;
+}
+
+.poste {
+    position: absolute;
+    width: 50px;
+    top: -42px;
+    right: 250px;
+}
+
+nav {
+    position: absolute;
+    top: 85px ;
+    right: 330px ; 
+}
+
+nav li {
+    display: inline;
+    padding: 0 0 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #292727;
+    font-size: 30px;   
+}
+
+li a:hover {
+    color: #b97816;
+    text-decoration: underline;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}

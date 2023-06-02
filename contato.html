@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Barber Shop - Produtos</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-produtos.css">
+    </head>
+    <body>
+        <header>
+            <div class="cabecalho">
+                <img class="imagen-rosto" src="logo-rosto.png">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Contato.html">Contato</a></li>
+                        <li><a href="Produtos.html">Produtos</a></li>
+                    </ul>
+                </nav>
+                <img class="imagen-poste" src="logo-redondo.png">
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="input-padrao" required placeholder="Seu nome completo">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@provedor.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" required placeholder="Escreva o estilo de corte que deseja!"></textarea>
+                <div>
+                    <p>Como prefere nosso contato?</p>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>                   
+                    <label for="radio-mensagem"><input type="radio" name="contato" value="whatsapp" id="radio-mensagem">Whatsapp</label>   
+                    <label for="radio-ligacao"><input type="radio" name="contato" value="telefone" id="radio-ligacao">Ligação</label>
+                </div>
+                <p>Qual horario prefere ser atendido?</p>               
+                <select>
+                    <option></option>
+                    <option>08:00 Horas</option>
+                    <option>09:00 Horas</option>
+                    <option>10:00 Horas</option>
+                    <option>13:00 Horas</option>
+                    <option>14:00 Horas</option>
+                    <option>15:00 Horas</option>
+                    <option>16:00 Horas</option>
+                    <option>17:00 Horas</option>
+                    <option>18:00 Horas</option>
+                    <option>19:00 Horas</option>
+                    <option>20:00 Horas</option>
+                </select>
+                <label class="checkbox" for="checkbox"><input type="checkbox" id="checkbox">Gostaria de receber nossas notificações por e-mail?</label>             
+                <input type="submit" value="Enviar" class="envio">               
+            </form>
+        </main>
+    </body>
+    <footer>
+        <div>
+            <img class="poste" src="Poste-barbearia.png">
+            <img class="poste-diferente" src="Poste-barbearia-2.png">
+            <p>&copy; Copyright Barber Shop D.M – 2023</p>
+        </div>
+    </footer>
+</html>
